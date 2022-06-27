@@ -108,10 +108,12 @@
   .welcome-section > p {
     font-size: 30px;
     font-weight: 200;
-    font-style: italic;
     opacity: 0.9;
     color: var(--main-red);
-  }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    }
+  
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -254,4 +256,55 @@
     line-height: 1.4;
     color: var(--main-blue);
   }
+  @media (max-width: 1000px){
+    .welcome-section{
+      height: 40vh;
+    }
+    .welcome-section h1{
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    .welcome-section p{
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: normal;
+    }
+   .myProjects{
+    font-size: 25px;
+    margin: 40px 20px;
+   }
+   .projects-grid{
+    max-width: 80%;
+   }
+   .contact-section{
+   padding-top: -10px !important;
+   height: 50vh;
+   background-color: white;
+
+   }
+   .contact-links{
+    color:black;
+   }
+   .icons{
+    font-size: 25px;
+  color: black;
+  margin-top: 5px;
+   }
+   .icons a{
+    margin-left: 10px;
+   }
+
+
+  }
+  .myProjects{
+    margin: 80px 20px;
+   }
+   .icons{
+    font-size: 30px;
+  margin-top: 20px;
+   }
+   .icons a{
+    margin-left: 20px;
+   }
+  
   
